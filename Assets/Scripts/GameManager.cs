@@ -74,6 +74,6 @@ public class GameManager : MonoBehaviour
 
     public void GoToMenu()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene("MainMenu");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("main menu");
     }
 }
