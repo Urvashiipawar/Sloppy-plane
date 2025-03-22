@@ -18,7 +18,6 @@ public class Player : MonoBehaviour
     private bool hasGameFinished;
     private SpriteRenderer sr;
     
-    // Start is called before the first frame update
     void Start()
     {
         currentYSpeed = _maxYSpeed;
@@ -27,7 +26,6 @@ public class Player : MonoBehaviour
         sr = GetComponent<SpriteRenderer>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         horizontalInput = Input.GetAxis("Horizontal");
